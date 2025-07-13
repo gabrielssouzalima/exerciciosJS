@@ -3,7 +3,7 @@ let usuario = "admin";
 let senha = "1234";
 let login = "admin"; 
 let senhaDigitada = "4321"; 
-if (usuario && senha){
+if (usuario === login && senhaDigitada === senha){
     console.log("Login bem-sucedido.")
 }
 else{
