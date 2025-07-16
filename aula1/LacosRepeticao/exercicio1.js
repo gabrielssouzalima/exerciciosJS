@@ -1,5 +1,6 @@
-/* 🧠 Exercícios com Laço For */
-for (let i = 0; i < 10; i++) {
-    console.log(i);
-  }
-  
+/* 🧠 Exercícios de Laços de Repetição - Mostre os números de 1 até 5 usando while */
+let i = 0;
+while (i < 5){
+  i++
+  console.log(i)
+}
